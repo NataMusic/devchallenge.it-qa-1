@@ -5,7 +5,7 @@
 
 ## Copy project
 ```bash
-git clone
+git clone git@github.com:NataMusic/devchallenge.it-qa-1.git
 ```
 
 ## Run docker
