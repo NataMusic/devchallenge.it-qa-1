@@ -1,7 +1,7 @@
 # **Setup:**
 
 ## Install Docker  and Docker Compose according to your local OS
-[Docker documentation](https://docs.docker.com/install/).
+[Docker documentation](https://docs.docker.com/install/).  
 [Docker Compose documentation](https://docs.docker.com/compose/install/).
 
 
