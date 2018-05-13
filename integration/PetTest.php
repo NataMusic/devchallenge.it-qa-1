@@ -81,15 +81,15 @@ class PetTest extends APITestCase
     }
 
     /**
-     * @param string $jsonEdited
+     * @param string $json
      *
      * @return mixed|null|ResponseInterface
      */
-    private function assertPet($jsonEdited)
+    private function assertPet($json)
     {
         $petResponse = $this->getPet();
         $this->assertStatusCode($petResponse, 200);
-        $this->assertSame($jsonEdited, $petResponse->getBody()->getContents(), 'Wrong content');
+        $this->assertSame($json, $petResponse->getBody()->getContents(), 'Wrong content');
 
         return $petResponse;
     }
